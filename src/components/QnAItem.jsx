@@ -9,7 +9,7 @@ function QnAItem({ title, content, isOpen, onClick }) {
         {title}
         <button onClick={onClick} className="  relative grid place-content-center  w-6 h-6">
           <svg
-            className={`absolute transition-opacity transform duration-300 mt-2 sm:-mt-3 ease-in-out ${
+            className={`absolute transition-opacity transform duration-300 mt-2 xl:mt-1 lg:mt-1 sm:-mt-2 ease-in-out ${
               isOpen ? "opacity-0 scale-75" : "opacity-100 scale-100"
             }`}
             width="16"
@@ -39,7 +39,7 @@ function QnAItem({ title, content, isOpen, onClick }) {
           </svg>
 
           <svg
-            className={`sm:-mt-2 absolute transition-opacity transform duration-300 mt-3 ease-in-out ${
+            className={`lg:mt-2 sm:-mt-1 xl:mt-2 absolute transition-opacity transform duration-300 mt-3 ease-in-out ${
               isOpen ? "opacity-100 scale-100" : "opacity-0 scale-75"
             }`}
             width="16"
@@ -64,7 +64,7 @@ function QnAItem({ title, content, isOpen, onClick }) {
         </button>
       </div>
      <div
-  className={` w-full  py-2 text-textlight transition-all duration-300 ease-in-out transform ${
+  className={`xl:px-4 w-full  py-2 text-textlight transition-all duration-300 ease-in-out transform ${
     isOpen ? "opacity-100 scale-y-100 max-h-[200px]" : "opacity-0 scale-y-0 max-h-0"
   }`}
   style={{
