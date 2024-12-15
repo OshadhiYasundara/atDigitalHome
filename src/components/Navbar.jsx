@@ -37,16 +37,16 @@ const Navbar = () => {
    
         <ul className="hidden md:flex space-x-7 text-white text-sm font-inter font-medium">
   <li className="hover:text-orange transition-all duration-300 ease-in-out">
-    <a href="#">SERVICES</a>
+    <a href="/">SERVICES</a>
   </li>
   <li className="hover:text-orange transition-all duration-300 ease-in-out">
-    <a href="#">ABOUT US</a>
+    <a href="/">ABOUT US</a>
   </li>
   <li className="hover:text-orange transition-all duration-300 ease-in-out">
-    <a href="#">CONTACT US</a>
+    <a href="/">CONTACT US</a>
   </li>
   <li className="hover:text-orange transition-all duration-300 ease-in-out">
-    <a href="#">CAREERS</a>
+    <a href="/">CAREERS</a>
   </li>
 </ul>
 
@@ -58,31 +58,31 @@ const Navbar = () => {
         <div className="  justify-between flex md:hidden mt-2 space-y-2  font-inter font-medium text-black  text-sm">
         <div  className="space-y-8 mt-4 ">
         <a
-            href="#"
+            href="/"
             className="block "
           >
             HOME
           </a>
           <a
-            href="#"
+            href="/"
             className="block "
           >
             SERVICES
           </a>
           <a
-            href="#"
+            href="/"
             className="block "
           >
             ABOUT US
           </a>
           <a
-            href="#"
+            href="/"
             className="block "
           >
             CONTACT US
           </a>
           <a
-            href="#"
+            href="/"
             className="block"
           >
             CAREERS

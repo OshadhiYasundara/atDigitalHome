@@ -54,11 +54,11 @@ const Footer = () => {
 
       <div className="border-t border-custom-purple-light mt-8 pt-3 text-sm text-center sm:mx-8 xl:mx-96 lg:mx-36">
         <div className="flex justify-center space-x-4">
-          <a href="#" className="hover:underline">
+          <a href="/  " className="hover:underline">
             Privacy Policy
           </a>
           <span>|</span>
-          <a href="#" className="hover:underline ">
+          <a href="/" className="hover:underline ">
             Terms & Conditions
           </a>
         </div>
